@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "fungus_in_forest",
+	"version": "${version}",
+	"name": "Fungus In Forest",
+	"description": "Adds small mushroom clusters to Overworld forest, taiga, and jungle biomes.",
+	"authors": [
+		"Ryo92K"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/fungus-in-forest",
+		"sources": "https://github.com/Ryo92K/Fungus-In-Forest",
+		"issues": "https://github.com/Ryo92K/Fungus-In-Forest/issues"
+	},
+	"license": "All Rights Reserved",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.ryo92k.fungusinforest.FungusInForest"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
